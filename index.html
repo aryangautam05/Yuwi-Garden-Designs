@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yuwi Garden Designs - Transform Your Outdoor Space</title>
+  <style>
+    :root {
+      --green-light: #a3d9a5;
+      --green-dark: #2f6f2f;
+      --brown: #5a3e1b;
+      --beige: #f6f0e4;
+      --white: #ffffff;
+      --gray-dark: #333333;
+      --gray-light: #f2f2f2;
+      --shadow: rgba(0,0,0,0.1);
+      --transition: 0.3s ease-in-out;
+      --max-width: 1100px;
+      --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: var(--font-family);
+      background-color: var(--beige);
+      color: var(--gray-dark);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--green-dark);
+      color: var(--white);
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px var(--shadow);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+    nav {
+      background: var(--green-light);
+      padding: 15px 20px;
+      box-shadow: 0 2px 5px var(--shadow);
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: var(--green-dark);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color var(--transition);
+    }
+    nav a:hover,
+    nav a:focus {
+      background-color: var(--green-dark);
+      color: var(--white);
+      outline: none;
+    }
+    main {
+      max-width: var(--max-width);
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      font-size: 2rem;
+      color: var(--green-dark);
+      border-bottom: 4px solid var(--green-light);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 1.5rem;
+      color: var(--brown);
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    p, ul {
+      max-width: 750px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+      gap: 30px;
+    }
+    .service-card {
+      background: var(--white);
+      border-radius: 8px;
+      box-shadow: 0 3px 10px var(--shadow);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--transition);
+    }
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+    .service-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-bottom: 4px solid var(--green-light);
+    }
+    .service-content {
+      padding: 15px 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .service-content p {
+      flex-grow: 1;
+      margin-bottom: 12px;
+    }
+    .price-tag {
+      font-weight: 700;
+      color: var(--brown);
+      font-size: 1.2rem;
+    }
+    .testimonial {
+      background: var(--green-light);
+      border-radius: 8px;
+      padding: 20px 25px;
+      font-style: italic;
+      box-shadow: 0 3px 10px var(--shadow);
+      max-width: 700px;
+      margin: 0 auto 40px auto;
+      color: var(--green-dark);
+    }
+    footer {
+      background: var(--green-dark);
+      color: var(--beige);
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    footer a {
+      color: var(--beige);
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      /* Removed hero styles */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Yuwi Garden Designs</h1>
+    <p>Transforming Your Outdoor Spaces into Living Masterpieces</p>
+  </header>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Our Services</a>
+    <a href="#satisfaction">Customer Satisfaction</a>
+    <a href="#disclaimer">Disclaimer</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="about" aria-label="About Yuwi Garden Designs">
+      <h2>About Yuwi Garden Designs</h2>
+      <p>
+        At Yuwi Garden Designs, we believe that your outdoor space is an extension of your home and your personality. With over 15 years of experience in garden design and landscaping, our skilled team transforms plain backyards and neglected gardens into stunning, functional, and sustainable environments you can enjoy year-round.
+      </p>
+      <p>
+        Our approach blends creativity, horticultural expertise, and ecological sensitivity to craft beautiful landscapes that enhance your lifestyle and increase your property value. Whether you desire a tranquil retreat, a vibrant floral paradise, or a family-friendly play area, Yuwi Garden Designs is your trusted partner in creating personalized outdoor living spaces.
+      </p>
+      <p>
+        We serve both residential and commercial clients, delivering tailored designs, high-quality installations, and ongoing garden care services. Our commitment to customer satisfaction and sustainable practices means you receive not just a garden, but a natural sanctuary rooted in harmony with the environment.
+      </p>
+    </section>
+
+    <section id="services" aria-label="Services offered by Yuwi Garden Designs">
+      <h2>Our Garden Design Services</h2>
+      <div class="services-grid">
+        <article class="service-card" aria-labelledby="service1-title">
+          <img src="s1.jpg" alt="Elegant backyard garden with a stone pathway and lush plants" class="service-image" />
+          <div class="service-content">
+            <h3 id="service1-title">Custom Garden Design</h3>
+            <p>
+              Tailored to reflect your taste and lifestyle, our experts craft bespoke garden layouts blending aesthetics and functionality. We work closely with you to choose the perfect plants, materials, and focal points, ensuring your garden is truly unique and captivating.
+            </p>
+            <p class="price-tag">Starting at $1,200</p>
+          </div>
+        </article>
+        <article class="service-card" aria-labelledby="service2-title">
+          <img src="s2.jpg" alt="Modern garden patio with outdoor seating surrounded by greenery" class="service-image" />
+          <div class="service-content">
+            <h3 id="service2-title">Patio and Outdoor Living Spaces</h3>
+            <p>
+              Enhance your garden's usability with beautiful patios, decks, and outdoor kitchens. Our team designs spaces that are perfect for entertaining guests or enjoying peaceful moments with family amidst nature's embrace.
+            </p>
+            <p class="price-tag">Starting at $2,000</p>
+          </div>
+        </article>
+        <article class="service-card" aria-labelledby="service3-title">
+          <img src="s3.jpg" alt="Water feature in a landscaped garden with rocks and plants" class="service-image" />
+          <div class="service-content">
+            <h3 id="service3-title">Water Features and Ponds</h3>
+            <p>
+              Add tranquility to your garden with customized water features, ponds, and fountains that bring soothing sounds and natural beauty to your outdoor sanctuary. We integrate these elements seamlessly into your existing landscape.
+            </p>
+            <p class="price-tag">Starting at $1,500</p>
+          </div>
+        </article>
+        <article class="service-card" aria-labelledby="service4-title">
+          <img src="s4.jpg" alt="Vibrant flower beds with seasonal blooms" class="service-image" />
+          <div class="service-content">
+            <h3 id="service4-title">Seasonal Planting & Maintenance</h3>
+            <p>
+              Keep your garden lively throughout the year with expert seasonal planting and routine maintenance services. We select suitable flowering plants, shrubs, and trees that thrive in your climate and provide ongoing care to keep your garden pristine.
+            </p>
+            <p class="price-tag">Starting at $300 per visit</p>
+          </div>
+        </article>
+        <article class="service-card" aria-labelledby="service5-title">
+          <img src="s5.jpg" alt="Lighting illuminating a beautiful garden pathway at twilight" class="service-image" />
+          <div class="service-content">
+            <h3 id="service5-title">Garden Lighting Solutions</h3>
+            <p>
+              Extend the usability and ambiance of your garden after dark with beautifully designed lighting solutions. We create subtle and impactful lighting to highlight features while enhancing safety and security.
+            </p>
+            <p class="price-tag">Starting at $800</p>
+          </div>
+        </article>
+        <article class="service-card" aria-labelledby="service6-title">
+          <img src="s6.jpg" alt="Eco-friendly garden with compost heap and natural mulch" class="service-image" />
+          <div class="service-content">
+            <h3 id="service6-title">Sustainable and Eco-Friendly Gardens</h3>
+            <p>
+              We specialize in eco-conscious garden designs that conserve water, reduce chemical use, and promote wildlife habitats. Our sustainable gardens are both beautiful and beneficial to the environment.
+            </p>
+            <p class="price-tag">Starting at $1,700</p>
+          </div>
+        </article>
+      </div>
+      <p>
+        <strong>Note:</strong> Prices vary depending on project size, complexity, and specific materials chosen. Contact us for a customized quote and consultation.
+      </p>
+    </section>
+
+    <section id="satisfaction" aria-label="Customer satisfaction and testimonials">
+      <h2>Customer Satisfaction</h2>
+      <div class="testimonial">
+        <p>
+          &ldquo;Yuwi Garden Designs completely transformed our backyard into a peaceful paradise. Their team listened to all our ideas and exceeded our expectations with a design that suits our lifestyle perfectly. Maintenance has been a breeze thanks to their expert advice. Highly recommend!&rdquo;
+        </p>
+        <footer>– Sarah M., Homeowner</footer>
+      </div>
+      <div class="testimonial">
+        <p>
+          &ldquo;Professional, creative, and reliable – Yuwi Garden Designs delivered a stunning outdoor living space for our restaurant. Our customers love the ambiance created by the water feature and lighting. The project was completed on time and within budget.&rdquo;
+        </p>
+        <footer>– Jason L., Business Owner</footer>
+      </div>
+      <p>
+        Your satisfaction is our top priority. We strive to deliver beautiful, long-lasting gardens that bring joy and relaxation to your home or business.
+      </p>
+    </section>
+
+    <section id="disclaimer" aria-label="Disclaimer">
+      <h2>Disclaimer</h2>
+      <p>
+        The information provided on this website is for general informational purposes only. While we aim to provide accurate and up-to-date details regarding our services and pricing, costs may vary depending on specific circumstances, site conditions, and client preferences. Yuwi Garden Designs reserves the right to amend prices and service offerings without prior notice. We recommend contacting us directly for a comprehensive consultation and exact pricing for your project.
+      </p>
+    </section>
+  </main>
+
+  <footer id="contact" aria-label="Contact information and footer">
+    <p><strong>Yuwi Garden Designs</strong></p>
+    <p>123 Greenway Lane, Springfield, State 56789</p>
+    <p>Phone: <a href="tel:+12345678900">+1 (234) 567-8900</a></p>
+    <p>Email: <a href="mailto:info@yuwigardendesigns.com">info@yuwigardendesigns.com</a></p>
+    <p>© 2024 Yuwi Garden Designs. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
